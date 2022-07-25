@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OMDB movie website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-dark">
+    <div class="container bg-light text-primary p-4 mt-5">
+      <header class="d-flex justify-content-between">
+        <input
+          type="text"
+          name="movie-name"
+          id="movie-name"
+          class="form-control"
+          value="bahubali"
+          autocomplete="off"
+        />
+        <button id="find-btn" class="btn btn-outline-secondary ms-1">
+          Search
+        </button>
+      </header>
+      <div id="main" class="text-secondary mt-2"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
